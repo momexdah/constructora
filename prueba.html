@@ -1,0 +1,561 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
+    <meta name="generator" content="Hugo 0.84.0">
+    <title>Constructora Chiquitas</title>
+    <link rel="canonical" href="https://getbootstrap.com/docs/5.0/examples/carousel-rtl/">
+    <link href="css/bootstrap.rtl.min.css" rel="stylesheet">
+
+    <style>
+        .bd-placeholder-img {
+            font-size: 1.125rem;
+            text-anchor: middle;
+            -webkit-user-select: none;
+            -moz-user-select: none;
+            user-select: none;
+        }
+
+        @media (min-width: 768px) {
+            .bd-placeholder-img-lg {
+                font-size: 3.5rem;
+            }
+        }
+    </style>
+        <link href="css/carousel.rtl.css" rel="stylesheet">
+
+
+</head>
+
+<body>
+    <!-- Carousel - Crosfade Navegacion-->
+
+    <header>
+        <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#">
+                    <img src="images/logoConstruct.png" alt="" width="50px" height="40px" chiquitas> <span>CONSTRUCTORA</span></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse"
+                    aria-controls="navbarCollapse" aria-expanded="false" aria-label="تبديل التنقل">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarCollapse">
+                    <ul class="navbar-nav me-auto mb-2 mb-md-0">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">الصفحة الرئيسية</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">حلقة الوصل</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">رابط غير مفعل</a>
+                        </li>
+                    </ul>
+                    <form class="d-flex">
+                        <input class="form-control me-2" type="search" placeholder="بحث" aria-label="بحث">
+                        <button class="btn btn-outline-success" type="submit">بحث</button>
+                    </form>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <div id="myCarousel" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+              <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+              <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+              <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <svg class="bd-placeholder-img" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false"><rect width="100%" height="100%" fill="#777"/></svg>
+        
+                <div class="container">
+                  <div class="carousel-caption text-start">
+                    <h1>عنوان المثال.</h1>
+                    <p>تشير الدراسات الإحصائية حسب الجمعية الأمريكية للغات بأن الإقبال على العربية زاد %126 في الولايات المتحدة الأمريكية وحدها بين عامي 2002 و2009م.</p>
+                    <p><a class="btn btn-lg btn-primary" href="#">سجل اليوم</a></p>
+                  </div>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <svg class="bd-placeholder-img" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false"><rect width="100%" height="100%" fill="#777"/></svg>
+        
+                <div class="container">
+                  <div class="carousel-caption">
+                    <h1>عنوان مثال آخر.</h1>
+                    <p>حسب المجلس الثقافي البريطاني فإن تعليم الإنجليزية داخل بريطانيا يسهم في تعزيز اقتصادها بما يتجاوز ملياري جنيه سنوياً، كما أنه وفر أكثر من 26 ألف وظيفة.</p>
+                    <p><a class="btn btn-lg btn-primary" href="#">أعرف أكثر</a></p>
+                  </div>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <svg class="bd-placeholder-img" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false"><rect width="100%" height="100%" fill="#777"/></svg>
+        
+                <div class="container">
+                  <div class="carousel-caption text-end">
+                    <h1>واحد أكثر لقياس جيد.</h1>
+                    <p>الإحصاءات لحجم الاستثمار اللغوي خارج بريطانيا تتفاوت من سنة لأخرى إلا أن المدير التنفيذي للمجلس الثقافي البريطاني إدي بايرز يرى أن استثمار تعليم الإنجليزية في الخارج لا يحسب على المستوى المالي فحسب بل على المستوى السياسي أيضاً.</p>
+                    <p><a class="btn btn-lg btn-primary" href="#">تصفح المعرض</a></p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#myCarousel" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">السابق</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#myCarousel" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">التالي</span>
+            </button>
+          </div>
+        
+    </main>
+
+
+    <!-- Nosotros -->
+    <div class="container">
+        <section id="about" class="about">
+
+            <div class="container" data-aos="fade-up">
+                <div class="row gx-0">
+                    <div class="col-lg-6 d-flex flex-column justify-content-center" data-aos="fade-up"
+                        data-aos-delay="200">
+                        <div class="content">
+                            <h3>¿Quiénes somos?</h3>
+                            <h2>Un poco más sobre nosotros...
+                            </h2>
+                            <p>
+                                La gran trayectoria y experiencia adquirida a lo largo de casi cuatro décadas ha
+                                permitido
+                                que Constructora Malaga abarque distintas especialidades de la construcción, como lo
+                                son: la
+                                infraestructura vial, edificaciones públicas y privadas, saneamiento, aeropuertos,
+                                minería e
+                                infraestructura de riego.
+                                La presencia de Constructora Chiquitas a lo largo del Perú, es reflejo del compromiso y
+                                dedicación de la calidad de profesionales que la componen. Su experiencia y trabajo no
+                                solo
+                                ha logrado posicionarla como una de las compañías más importantes del país, si no que,
+                                además, ha logrado internacionalizarla.
+                            </p>
+                            <div class="text-center text-lg-start">
+                                <a href="#"
+                                    class="btn-read-more d-inline-flex align-items-center justify-content-center align-self-center">
+                                    <span>Leer más</span>
+                                    <i class="bi bi-arrow-right"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-6 d-flex align-items-center" data-aos="zoom-out" data-aos-delay="200">
+                        <img src="images/aboutus.jpg" class="img-fluid" alt="">
+                    </div>
+
+                </div>
+            </div>
+
+        </section><!-- End About Section -->
+
+        <section id="values" class="values">
+
+            <div class="container" data-aos="fade-up">
+
+                <header class="section-header">
+                    <h2>Nuestros Objetivos</h2>
+                    <p>Nos empeñamos cada día en mejorar más</p>
+                </header>
+
+                <div class="row">
+
+                    <div class="col-lg-4" data-aos="fade-up" data-aos-delay="200">
+                        <div class="box">
+                            <img src="assets/img/mision_arza.png" class="img-fluid" alt="">
+                            <h3>Misión</h3>
+                            <p>Emprender y llevar adelante proyectos de construcción e inmobiliarios generando valor y
+                                satisfacción a quienes nos otrogan su confianza, rentabilidad a la empresa; para asumir
+                                sus
+                                compromisos
+                                con la sociedad y construir obras que generen valor a las comunidades y ciudades en las
+                                que
+                                operamos.</p>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-4 mt-4 mt-lg-0" data-aos="fade-up" data-aos-delay="400">
+                        <div class="box">
+                            <img src="assets/img/vision_arza.png" class="img-fluid" alt="">
+                            <h3>Visión</h3>
+                            <p>Nuestra visión es ser reconocidos como una de las 10 mejores empresas constructoras del
+                                país y asi convertirnos en una empresa altamente competitiva, sólida, segura e
+                                innovadora en
+                                el sector
+                                inmobiliario y construcción; que trascienda en el tiempo a través de sus accionistas
+                                como
+                                contribución
+                                con sus obras a la sociedad peruana.
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-4 mt-4 mt-lg-0" data-aos="fade-up" data-aos-delay="600">
+                        <div class="box">
+                            <img src="assets/img/values-3.png" class="img-fluid" alt="">
+                            <h3>Empresa</h3>
+                            <p>
+                                CHIQUITAS CONTRATISTAS GENERALES SAC es una empresa contratista establecida en el Perú
+                                que actualmente brinda servicios de ingeniería, construcción y mantenimiento general.
+                                <br>
+                                Durante su larga trayectoria, CHIQUITAS CONTRATISTAS GENERALES SAC ha consolidado su
+                                desarrollo
+                                ejecutando obras en diversas especialidades de la ingeniería civil, tanto en el sector
+                                público como en
+                                el privado, en el cual ha acompañado el impulso del sector minero. De esta manera
+                                CHIQUITAS
+                                CONTRATISTAS
+                                GENERALES SAC cuenta con un prestigio de empresa seria y responsable, cuidadosa de
+                                cumplir
+                                con plazos,
+                                costos, estándares de calidad y seguridad, que muchas veces superan las expectativas de
+                                sus
+                                clientes.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </section><!-- End Values Section -->
+        <!-- ======= Services Section ======= -->
+
+
+        <!-- SERVICIOS -->
+        <div class="container">
+            <p class="h3">Servicios</p>
+            <div class="row g-0">
+                <div class="col-md-4">
+                    <div class="card" style="width: 18rem;" data-aos="flip-left">
+                        <img src="https://www.c-malaga.com/Manager/documentos/lineas_negocio/imagenEPYP/DSC_7451p.jpg"
+                            class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">EDIFICACIONES PÚBLICAS Y PRIVADAS</h5>
+                            <p class="card-text">Nuestra trayectoria nos permite dar fe de nuestro compromiso con el
+                                desarrollo y nuestra capacidad para construir edificaciones de diversas índoles:
+                                penitenciarias, deportivas, hospitales, centros de educación, viviendas y más.</p>
+                            <a href="#" class="btn btn-primary">Ver Proyectos</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+
+                    <div class="card" style="width: 18rem;" data-aos="flip-left">
+                        <img src="https://www.c-malaga.com/Manager/documentos/lineas_negocio/imagenIVYA/Carretera%20Pilcomayo-Huayucachi.%20Junin.jpg"
+                            class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">INFRAESTRUCTURA VIAL Y AEROPORTUARIA</h5>
+                            <p class="card-text">Siendo nuestros primeros trabajos obras de infraestructura vial, hoy,
+                                Constructora Malaga cuenta con una amplia experiencia y capacidad para desarrollar
+                                proyectos
+                                de alta envergadura como carreteras, aeropuertos, intercambios viales, puentes,
+                                movimientos
+                                de tierras, rehabilitación y mejoramiento vial, entre otros.</p>
+                            <a href="#" class="btn btn-primary">Ver Proyectos</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card" style="width: 18rem;" data-aos="flip-left">
+                        <img src="https://www.c-malaga.com/Manager/documentos/lineas_negocio/imagenSEIDR/DSC_2116.jpg"
+                            class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">SANEAMIENTO E INFRAESTRUCTURA DE RIEGO</h5>
+                            <p class="card-text">El agua es vital para la subsistencia del ser humano, los animales, las
+                                plantas y demás. En Constructora Malaga, tenemos presente el valor tan importante que
+                                tiene
+                                este recurso para el planeta; es por ello, que contribuimos ejecutando proyectos de
+                                saneamiento urbano y proyectos de infraestructura con fines de riego como presas y
+                                canales.</p>
+                            <a href="#" class="btn btn-primary">Ver Proyectos</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!--CLIENTES-->
+
+
+        <!-- ======= Portfolio Section ======= -->
+        <section id="portfolio" class="portfolio">
+
+            <div class="container" data-aos="fade-up">
+
+                <header class="section-header">
+                    <h2>Portafolio</h2>
+                    <p>Consulta nuestros últimos proyectos</p>
+                </header>
+                <div class="row gy-4 portfolio-container" data-aos="fade-up" data-aos-delay="200">
+
+                    <div class="col-lg-4 col-md-6 portfolio-item filter-app">
+                        <div class="portfolio-wrap">
+                            <img src="https://www.c-malaga.com/Manager/documentos/proyecto/IMG_0878.jpg"
+                                class="img-fluid" alt="">
+                            <div class="portfolio-info">
+                                <h4>Centro de Emergencias de Lima</h4>
+                                <p>
+                                    Elaboración del expediente técnico a nivel de estudio definitivo y ejecución del
+                                    centro
+                                    de emergencias de lima metropolitana.</p>
+
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-4 col-md-6 portfolio-item filter-web">
+                        <div class="portfolio-wrap">
+                            <img src="https://www.c-malaga.com/Manager/documentos/proyecto/pasco4.jpg" class="img-fluid"
+                                alt="">
+                            <div class="portfolio-info">
+                                <h4>Penal Cerro de Pasco</h4>
+                                <p>Ejecución de la ampliación y mejoramiento del servicio de internamiento penitenciario
+                                    en
+                                    la jurisdicción de la oficina regional oriente Pucallpa - Etapa I.</p>
+
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-4 col-md-6 portfolio-item filter-app">
+                        <div class="portfolio-wrap">
+                            <img src="https://www.c-malaga.com/Manager/documentos/proyecto/WhatsApp%20Image%202020-02-18%20at%205.43.55%20PM%20(1).jpeg"
+                                class="img-fluid" alt="">
+                            <div class="portfolio-info">
+                                <h4>Carretera Pallasca</h4>
+                                <p>
+                                    Mejoramiento de la carretera Pallasca - Mollepata - Mollebamba - Santiago de Chuco -
+                                    Emp. Ruta 10, Tramo: Mollepata - Pallasca.</p>
+
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-4 col-md-6 portfolio-item filter-card">
+                        <div class="portfolio-wrap">
+                            <img src="https://www.c-malaga.com/Manager/documentos/proyecto/IMG_20190625_154726.jpg"
+                                class="img-fluid" alt="">
+                            <div class="portfolio-info">
+                                <h4>Carretera Súngaro</h4>
+                                <p>
+                                    Rehabilitación y mejoramiento de la carretera Puerto Bermúdez - San Alejandro,
+                                    Tramo:
+                                    Puerto Súngaro - Dv. San Alejandro.</p>
+
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-4 col-md-6 portfolio-item filter-web">
+                        <div class="portfolio-wrap">
+                            <img src="https://www.c-malaga.com/Manager/documentos/proyecto/aeropuerto_cajamarca.jpg"
+                                class="img-fluid" alt="">
+                            <div class="portfolio-info">
+                                <h4>Aeropuerto de Cajamarca</h4>
+                                <p>Ampliación y mejoramiento de la pista de aterrizaje del aeropuerto de Cajamarca.</p>
+
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-4 col-md-6 portfolio-item filter-app">
+                        <div class="portfolio-wrap">
+                            <img src="https://www.c-malaga.com/Manager/documentos/proyecto/mantenimiento%20panam%20sur%205.jpg"
+                                class="img-fluid" alt="">
+                            <div class="portfolio-info">
+                                <h4>Mantenimiento Panamericana Sur</h4>
+                                <p>Mantenimiento periódico de la carretera Panamericana Sur tramo Puente Montalvo -
+                                    Puente
+                                    Camiara.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-4 col-md-6 portfolio-item filter-card">
+                        <div class="portfolio-wrap">
+                            <img src="https://www.c-malaga.com/Manager/documentos/proyecto/DJI_0008.jpg"
+                                class="img-fluid" alt="">
+                            <div class="portfolio-info">
+                                <h4>Presa POECHOS</h4>
+                                <p>Afianzamiento del Reservorio Poechos Sistema Hidráulico Chira - Piura.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-4 col-md-6 portfolio-item filter-card">
+                        <div class="portfolio-wrap">
+                            <img src="https://www.c-malaga.com/Manager/documentos/proyecto/presachal.png"
+                                class="img-fluid" alt="">
+                            <div class="portfolio-info">
+                                <h4>Presa Chalhuanca</h4>
+                                <p>Sistema de Regulación Hídrica de la cuenca Del Río Sumbay - Presa Chalhuanca.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-4 col-md-6 portfolio-item filter-web">
+                        <div class="portfolio-wrap">
+                            <img src="https://www.c-malaga.com/Manager/documentos/proyecto/20200218_172406.jpg"
+                                class="img-fluid" alt="">
+                            <div class="portfolio-info">
+                                <h4>Carretera Campanilla</h4>
+                                <p>Rehabilitación y mejoramiento de la carretera Tocache - Juanjuí, Tramo: Pizana - La
+                                    Polvora - Pizarrón - Perlamayo - Campanilla.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section><!-- End Portfolio Section -->
+
+        <!-- ======= Testimonials Section ======= -->
+        <section id="testimonials" class="testimonials">
+
+            <div class="container" data-aos="fade-up">
+
+                <header class="section-header">
+                    <h2>Testimonios</h2>
+                    <p>Que dicen de nosotros</p>
+                </header>
+
+                <div class="testimonials-slider swiper" data-aos="fade-up" data-aos-delay="200">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                            <div class="testimonial-item">
+                                <div class="stars">
+                                    <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i
+                                        class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i
+                                        class="bi bi-star-fill"></i>
+                                </div>
+                                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Possimus laboriosam
+                                    corrupti
+                                    dolores optio itaque, tempore sapiente inventore quasi? Beatae numquam aperiam fugit
+                                    repellendus eaque odio deleniti modi tempora distinctio ducimus!.</p>
+                                <div class="profile mt-auto">
+                                    <img src="images/testimonials/testimonials-1.jpg" class="testimonial-img" alt="">
+                                    <h3>Han Rickat</h3>
+                                    <h4>Gerente General</h4>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- End testimonial item -->
+
+                        <div class="swiper-slide">
+                            <div class="testimonial-item">
+                                <div class="stars">
+                                    <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i
+                                        class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i
+                                        class="bi bi-star-fill"></i>
+                                </div>
+                                <p>
+                                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Possimus laboriosam
+                                    corrupti
+                                    dolores optio itaque, tempore sapiente inventore quasi? Beatae numquam aperiam fugit
+                                    repellendus eaque odio deleniti modi tempora distinctio ducimus!.
+                                </p>
+                                <div class="profile mt-auto">
+                                    <img src="images/testimonials/testimonials-2.jpg" class="testimonial-img" alt="">
+                                    <h3>Juan Lopez</h3>
+                                    <h4>Director de Essalud Lima</h4>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- End testimonial item -->
+
+                        <div class="swiper-slide">
+                            <div class="testimonial-item">
+                                <div class="stars">
+                                    <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i
+                                        class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i
+                                        class="bi bi-star-fill"></i>
+                                </div>
+                                <p>
+                                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Possimus laboriosam
+                                    corrupti
+                                    dolores optio itaque, tempore sapiente inventore quasi? Beatae numquam aperiam fugit
+                                    repellendus eaque odio deleniti modi tempora distinctio ducimus!.
+                                </p>
+                                <div class="profile mt-auto">
+                                    <img src="images/testimonials/testimonials-3.jpg" class="testimonial-img" alt="">
+                                    <h3>Martín Librarian</h3>
+                                    <h4>Director del Penal de Pucallpa</h4>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- End testimonial item -->
+
+                        <div class="swiper-slide">
+                            <div class="testimonial-item">
+                                <div class="stars">
+                                    <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i
+                                        class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i
+                                        class="bi bi-star-fill"></i>
+                                </div>
+                                <p>
+                                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Possimus laboriosam
+                                    corrupti
+                                    dolores optio itaque, tempore sapiente inventore quasi? Beatae numquam aperiam fugit
+                                    repellendus eaque odio deleniti modi tempora distinctio ducimus!.
+                                </p>
+                                <div class="profile mt-auto">
+                                    <img src="images/testimonials/testimonials-4.jpg" class="testimonial-img" alt="">
+                                    <h3>Jean Pierre Terán</h3>
+                                    <h4>Gerente del Aeropuerto Cajamarca</h4>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- End testimonial item -->
+
+                        <div class="swiper-slide">
+                            <div class="testimonial-item">
+                                <div class="stars">
+                                    <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i
+                                        class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i
+                                        class="bi bi-star-fill"></i>
+                                </div>
+                                <p>
+                                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Possimus laboriosam
+                                    corrupti
+                                    dolores optio itaque, tempore sapiente inventore quasi? Beatae numquam aperiam fugit
+                                    repellendus eaque odio deleniti modi tempora distinctio ducimus!.
+                                </p>
+                                <div class="profile mt-auto">
+                                    <img src="images/testimonials/testimonials-5.jpg" class="testimonial-img" alt="">
+                                    <h3>Leyder Cabrera</h3>
+                                    <h4>Ministro de Transportes</h4>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- End testimonial item -->
+
+                    </div>
+                    <div class="swiper-pagination"></div>
+                </div>
+
+            </div>
+
+        </section>
+        <!-- End Testimonials Section -->
+        <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
+        <script src="js/bootstrap.min.js"></script>
+        <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+        <script> AOS.init();</script>
+        <script src="js/bootstrap.bundle.min.js"></script>
+
+</body>
+
+</html>
